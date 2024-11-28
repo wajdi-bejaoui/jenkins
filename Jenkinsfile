@@ -30,7 +30,7 @@ pipeline {
             }
             steps {
                 sh '''
-                test -f build/index.html
+                test -f dist/index.html
                 '''
             }
         }
